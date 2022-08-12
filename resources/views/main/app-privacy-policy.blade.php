@@ -10,8 +10,11 @@
     <!-- For IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="{{ asset('main/assets/css/animate.css') }}">
     <link rel="stylesheet" href="{{ asset('main/assets/css/aos.css') }}">
@@ -27,6 +30,8 @@
     <link rel="stylesheet" href="{{ asset('main/assets/css/owl.css') }}">
     <link rel="stylesheet" href="{{ asset('main/assets/css/rtl.css') }}">
     <link rel="stylesheet" href="{{ asset('main/assets/css/scrollbar.css') }}">
+
+    <link rel="stylesheet" href="{{ asset('main/assets/css/bxslider.css') }}">
 
     <!-- Module css -->
     <link rel="stylesheet" href="{{ asset('main/assets/css/module-css/header-section.css') }}">
@@ -118,7 +123,7 @@
                                             </li>
                                             <li><a href="{{ route('main.pricing') }}">Pricing</a></li>
                                             <li><a href="{{ route('main.contact') }}">Contact Us</a></li>
-                                            <li><a href="{{ route('login') }}">login</a></li>
+                                            <li><a href="{{ route('login') }}">Login</a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -195,13 +200,31 @@
 
         <!--Start breadcrumb area-->
         <section class="breadcrumb-area">
-            <div class="breadcrumb-area-bg" style="background-image: url({{ asset('main/assets/images/breadcrumb/breadcrumb-1.jpg') }} );"></div>
+            <div class="breadcrumb-area-bg" style="background-image: url({{ asset('main/assets/images/breadcrumb/Privacy_Policy.png') }} );">
+            </div>
+            <div class="breadcrumb-social-link">
+                <ul class="clearfix">
+                    <li class="wow slideInUp" data-wow-delay="500ms" data-wow-duration="1000ms">
+                        <a href="https://www.facebook.com/upviewIndia/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="wow slideInUp" data-wow-delay="700ms" data-wow-duration="2000ms">
+                        <a href="https://twitter.com/upview_in" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="wow slideInUp" data-wow-delay="900ms" data-wow-duration="1000ms">
+                        <a href="https://www.linkedin.com/showcase/upview-india" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="wow slideInUp" data-wow-delay="1100ms" data-wow-duration="2100ms">
+                        <a href="https://instagram.com/upview.in" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+            </div>
+
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="inner-content text-center">
-                            <div class="title paroller">
-                                <h2>{!! $blog->title !!}</h2>
+                        <div class="inner-content paroller text-center">
+                            <div class="title">
+                                <h2>Privacy Policy</h2>
                             </div>
                         </div>
                     </div>
@@ -210,25 +233,133 @@
         </section>
         <!--End breadcrumb area-->
 
-        <!--Start Blog Details Area-->
-        <section class="blog-details-area">
+
+        <!--Start Privacy Policy Area-->
+        <section class="portfolio-details-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-12 col-lg-12">
-                        <div class="blog-details-content">
-                            <div class="single-blog-style1 wow fadeInUp" data-wow-duration="1500ms">
-                                <div class="text-holder">
-                                    <div class="text">
-                                        {!! $blog->blog_html_page !!}
+                    <div class="col-xl-12">
+                        <div class="portfolio-details_content">
+
+                            <div class="container">
+                                <div class="row mb-n7">
+                                    <div class="col-12 mb-7">
+                                        <div class="service-details">
+                                            <div class="service-details-list">
+                                                <h1 class="title">Upview.in Mobile App Privacy Policy</h1>
+                                                <h4>Last updated: July 11, 2022</h4>
+                                                <p>
+                                                    Renuka Gondalia built the Upview app as
+                                                    a Free app. This SERVICE is provided by
+                                                    Renuka Gondalia at no cost and is intended for use as
+                                                    is. Upview's services are free to use upon registration according to the demo.
+                                                    Afterwords, users are required to use our in app  subscriptions page to purchase
+                                                    a valid plan to continue their services.
+                                                  </p> <p>
+                                                    This page is used to inform visitors regarding our
+                                                    policies with the collection, use, and disclosure of Personal
+                                                    Information if anyone decided to use our Service.
+                                                  </p> <p>
+                                                    If you choose to use our Service, then you agree to
+                                                    the collection and use of information in relation to this
+                                                    policy. The Personal Information that We collect is
+                                                    used for providing and improving the Service. We will not use or share your information with
+                                                    anyone except as described in this Privacy Policy.
+                                                  </p> <p>
+                                                    The terms used in this Privacy Policy have the same meanings
+                                                    as in our Terms and Conditions, which are accessible at
+                                                    Upview unless otherwise defined in this Privacy Policy.
+                                                  </p> <p><h4 class="title">Information Collection and Use</h4></p> <p>
+                                                    For a better experience, while using our Service, We
+                                                    may require you to provide us with certain personally
+                                                    identifiable information, including but not limited to For full platform policies Visit https://upview.in/privacy-policy. The information that
+                                                    We request will be retained on your device and is not collected by me in any way.
+                                                  </p> <div><p>
+                                                      The app does use third-party services that may collect
+                                                      information used to identify you.
+                                                    </p> <p>
+                                                      Link to the privacy policy of third-party service providers used
+                                                      by the app
+                                                    </p> <ul><!----><!----><li><a href="https://firebase.google.com/policies/analytics" target="_blank" rel="noopener noreferrer">Google Analytics for Firebase</a></li><li><a href="https://firebase.google.com/support/privacy/" target="_blank" rel="noopener noreferrer">Firebase Crashlytics</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><li><a href="https://onesignal.com/privacy_policy" target="_blank" rel="noopener noreferrer">One Signal</a></li><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----><!----></ul></div> <p><h4 class="title">Log Data</h4></p> <p>
+                                                    We want to inform you that whenever you
+                                                    use our Service, in a case of an error in the app
+                                                    We collect data and information (through third-party
+                                                    products) on your phone called Log Data. This Log Data may
+                                                    include information such as your device Internet Protocol
+                                                    (“IP”) address, device name, operating system version, the
+                                                    configuration of the app when utilizing our Service,
+                                                    the time and date of your use of the Service, and other
+                                                    statistics.
+                                                  </p> <p><h4 class="title">Cookies</h4></p> <p>
+                                                    Cookies are files with a small amount of data that are
+                                                    commonly used as anonymous unique identifiers. These are sent
+                                                    to your browser from the websites that you visit and are
+                                                    stored on your device's internal memory.
+                                                  </p> <p>
+                                                    This Service does not use these “cookies” explicitly. However,
+                                                    the app may use third-party code and libraries that use
+                                                    “cookies” to collect information and improve their services.
+                                                    You have the option to either accept or refuse these cookies
+                                                    and know when a cookie is being sent to your device. If you
+                                                    choose to refuse our cookies, you may not be able to use some
+                                                    portions of this Service.
+                                                  </p> <p><h4 class="title">Service Providers</h4></p> <p>
+                                                    We may employ third-party companies and
+                                                    individuals due to the following reasons:
+                                                  </p> <ul><li>To facilitate our Service;</li> <li>To provide the Service on our behalf;</li> <li>To perform Service-related services; or</li> <li>To assist us in analyzing how our Service is used.</li></ul> <p>
+                                                    We want to inform our users that these third parties have access to their Personal
+                                                    Information. The reason is to perform the tasks assigned to
+                                                    them on our behalf. However, they are obligated not to
+                                                    disclose or use the information for any other purpose.
+                                                  </p> <p><h4 class="title">Security</h4></p> <p>
+                                                    We value your trust in providing us your
+                                                    Personal Information, thus we are striving to use commercially
+                                                    acceptable means of protecting it. But remember that no method
+                                                    of transmission over the internet, or method of electronic
+                                                    storage is 100% secure and reliable, and we cannot
+                                                    guarantee its absolute security.
+                                                  </p> <p><h4 class="title">Links to Other Sites</h4></p> <p>
+                                                    This Service may contain links to other sites. If you click on
+                                                    a third-party link, you will be directed to that site. Note
+                                                    that these external sites are not operated under Upview.
+                                                    Therefore, We strongly advise you to review the
+                                                    Privacy Policy of these websites. We have
+                                                    no control over and assume no responsibility for the content,
+                                                    privacy policies, or practices of any third-party sites or
+                                                    services.
+                                                  </p> <p><h4 class="title">Child Privacy</h4></p> <div><p>
+                                                      These Services does not address anyone under the age of 13.
+                                                      We do not knowingly collect personally
+                                                      identifiable information from children under 13 years of age. In the case
+                                                      we discover that a child under 13 has provided
+                                                      us with personal information, we immediately
+                                                      delete this from our servers. If you are a parent or guardian
+                                                      and you are aware that your child has provided us with
+                                                      personal information, please contact us so that
+                                                      we are able to take necessary actions.
+                                                    </p></div> <!----> <p><h4 class="title">Changes to This Privacy Policy</h4></p> <p>
+                                                    We may update our Privacy Policy from
+                                                    time to time. Thus, you are advised to review this page
+                                                    periodically for any changes. We will
+                                                    notify you of any changes by posting the new Privacy Policy on
+                                                    this page.
+                                                  </p> <p>This policy is effective as of July 2022.</p> <p><h4 class="title">Contact Us</h4></p> <p>
+                                                    If you have any questions or suggestions about Upview's
+                                                    Privacy Policy, do not hesitate to contact us at info@upview.in.
+                                                  </p> 
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--End Blog Details Area-->
+        <!--End Privacy Policy Area-->
+
 
 
         <!--Start footer area -->
@@ -313,8 +444,8 @@
 									<h3>Community</h3>
 								</div>
 								<ul class="footer-widget-links1">
-									<li><a href="javascript:void()">Blog</a></li>
-									<li><a href="javascript:void()">Members</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Members</a></li>
 								</ul>
 							</div>
 						</div>
@@ -390,15 +521,12 @@
         <!--End footer area-->
 
 
-
-
         <button class="scroll-top scroll-to-target" data-target="html">
             <span class="fa fa-angle-up"></span>
         </button>
 
-
-
     </div>
+
 
 
 
@@ -416,6 +544,7 @@
     <script src="{{ asset('main/assets/js/jquery.paroller.min.js') }}"></script>
     <script src="{{ asset('main/assets/js/jquery-ui.js') }}"></script>
     <script src="{{ asset('main/assets/js/knob.js') }}"></script>
+    <script src="{{ asset('main/assets/js/map-script.js') }}"></script>
     <script src="{{ asset('main/assets/js/owl.js') }}"></script>
     <script src="{{ asset('main/assets/js/pagenav.js') }}"></script>
     <script src="{{ asset('main/assets/js/parallax.min.js') }}"></script>
@@ -423,6 +552,7 @@
     <script src="{{ asset('main/assets/js/TweenMax.min.js') }}"></script>
     <script src="{{ asset('main/assets/js/validation.js') }}"></script>
     <script src="{{ asset('main/assets/js/wow.js') }}"></script>
+
 
 
     <!-- thm custom script -->

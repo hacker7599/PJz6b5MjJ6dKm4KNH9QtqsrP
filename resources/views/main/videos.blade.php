@@ -179,9 +179,9 @@
                     <div class="social-links">
                         <ul class="clearfix">
                             <li><a href="https://www.facebook.com/upviewIndia/"><span class="fab fa fa-facebook-square"></span></a></li>
-                            <li><a href="https://twitter.com/UpviewIndia"><span class="fab fa fa-twitter-square"></span></a></li>
+                            <li><a href="https://twitter.com/upview_in"><span class="fab fa fa-twitter-square"></span></a></li>
                             <li><a href="https://www.linkedin.com/showcase/upview-india"><span class="fab fa fa-linkedin-square"></span></a></li>
-                            <li><a href="https://instagram.com/upviewindia"><span class="fab fa fa-instagram-square"></span></a></li>
+                            <li><a href="https://instagram.com/upview.in"><span class="fab fa fa-instagram-square"></span></a></li>
                         </ul>
                     </div>
                 </nav>
@@ -237,11 +237,37 @@
                     <div class="col-xl-4 col-lg-6 col-lg-6">
                         <div class="single-team-style1 wow fadeInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                             <div class="img-holder">
-                                <iframe src="https://player.vimeo.com/video/716777486?h=a0ad228ed5" title="" width="370" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                                <iframe src="https://player.vimeo.com/video/716777486?h=a0ad228ed5" title="About Upview" width="370" height="210" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             <div class="title-holder">
                                 <div class="title">
                                     <h3><a href="#">About Upview</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 col-lg-6">
+                        <div class="single-team-style1 wow fadeInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="img-holder">
+                                <iframe src="https://player.vimeo.com/video/730891309?h=f8ecd6ab6a" title="How to register?" width="370" height="210" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="title-holder">
+                                <div class="title">
+                                    <h3><a href="#">How to register?</a></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-6 col-lg-6">
+                        <div class="single-team-style1 wow fadeInRight animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                            <div class="img-holder">
+                                <iframe src="https://player.vimeo.com/video/730922400?h=c0d691535d" title="How to login?" width="370" height="210" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                            <div class="title-holder">
+                                <div class="title">
+                                    <h3><a href="#">How to login?</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -353,7 +379,7 @@
 										<div class="img-holder">
 											<div>
 												<div class="inner">
-													<a href="https://instagram.com/upviewindia"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+													<a href="https://instagram.com/upview.in"><i class="fa fa-instagram" aria-hidden="true"></i></a>
 												</div>
 											</div>
 										</div>
@@ -389,7 +415,7 @@
 										<div class="img-holder">
 											<div>
 												<div class="inner">
-													<a href="https://twitter.com/UpviewIndia"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+													<a href="https://twitter.com/upview_in"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 												</div>
 											</div>
 										</div>
